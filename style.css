@@ -1,3 +1,6 @@
 body {
-    background: blue;
+    background-image: url("paper.jpg");
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   text-emphasis: none;
   }
