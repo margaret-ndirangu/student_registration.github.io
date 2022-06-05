@@ -13,3 +13,18 @@ body {
     text-align: center; 
     text-decoration: underline
   }
+  table{
+    font-family: Calibri; 
+    color:black; 
+    font-size: 11pt; 
+    font-style: normal;
+    font-weight: bold;
+    text-align:left; 
+    background-color: whitesmoke; 
+    border-collapse: collapse; 
+    border: 2px solid navy;
+   
+  }
+  table.inner{
+    border: 0px
+  }
