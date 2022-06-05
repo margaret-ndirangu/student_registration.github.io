@@ -1,30 +1,35 @@
 body {
     background-image: url("paper.jpg");
+     
+   
    font-family: Arial, Helvetica, sans-serif;
    text-align: center;
    text-emphasis: none;
-  }
-  h1{
-    font-family: Calibri; 
-    font-size: 25pt;         
-    font-style: normal; 
-    font-weight: bold; 
-    color:whitesmoke;
-    text-align: center; 
-    text-decoration: underline
-  }
-  table{
-    font-family: Calibri; 
-    color:black; 
-    font-size: 11pt; 
-    font-style: normal;
-    font-weight: bold;
-    text-align:left; 
-    background-color: whitesmoke; 
-    border-collapse: collapse; 
-    border: 2px solid navy;
-   
-  }
-  table.inner{
-    border: 0px
+ };
+ h1{
+   font-family: Calibri; 
+   font-size: 25pt;         
+   font-style: normal; 
+   font-weight: bold; 
+   color:whitesmoke;
+   text-align: center; 
+   text-decoration: underline
+ }
+ 
+ table{
+   font-family: Calibri; 
+   color:black; 
+   font-size: 11pt; 
+   font-style: normal;
+   font-weight: bold;
+   text-align:left; 
+   background-color: whitesmoke; 
+   border-collapse: collapse; 
+   border: 2px solid navy;
+  
+ }
+ table.inner{
+   border: 0px
+ }
+
   }

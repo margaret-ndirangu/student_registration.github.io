@@ -9,91 +9,106 @@
   <body>
     <h1>New Student Registration</h1>
     <script src="script.js"></script>
-    <table align="center" cellpadding = "10"></table>
-  
-<!----- First Name ---->
-<tr>
-    <td>FIRST NAME</td>
-    <td><input type="text" name="First_Name" maxlength="30"/>
-    (max 30 characters a-z and A-Z)
-    </td>
-    </tr>
-<!----- Second Name ---->
-    <tr>
-      <td>SECOND NAME</td>
-      <td><input type="text" name="Second_Name" maxlength="30"/>
+   
+      <table align="center" cellpadding = "10">
+       
+      <!----- First Name ---->
+      <tr>
+      <td>FIRST NAME</td>
+      <td><input type="text" name="First_Name" maxlength="30"/>
       (max 30 characters a-z and A-Z)
       </td>
       </tr>
-     
-<!----- Last Name ---->
-    <tr>
-    <td>LAST NAME</td>
-    <td><input type="text" name="Last_Name" maxlength="30"/>
-    (max 30 characters a-z and A-Z)
-    </td>
-    </tr>
-<!----- Date Of Birth ---->
-<tr>
-    <td>DATE OF BIRTH</td>
-     
-    <td><input type="date" name="begin" 
-      placeholder="dd-mm-yyyy" value=""
-      min="1997-01-01" max="2030-12-31"/>
-    </td>
-    </tr>
-     
-<!----- Email Id ---->
-    <tr>
-    <td>EMAIL ID</td>
-    <td><input type="text" name="Email_Id" maxlength="100" /></td>
-    </tr>
-     
- <!----- Mobile Number ---->
-    <tr>
-    <td>MOBILE NUMBER</td>
-    <td>
-    <input type="text" name="Mobile_Num" maxlength="10" />
-    (10 digit number)
-    </td>
-    </tr>
-     
-<!----- Gender ---->
-    <tr>
-    <td>GENDER</td>
-    <td>
-    Male/Female <input type="text" name="Gender" value="" />
-    
-    </td>
-    </tr>
-     
-<!----- Address----->
-    <tr>
-    <td>ADDRESS <br /><br /><br /></td>
-    <td><textarea name="Address" rows="4" cols="30"></textarea></td>
-    </tr>
-
-<!----- City ---->
-    <tr>
-    <td>CITY</td>
-    <td><input type="text" name="City" maxlength="30" />
-    (max 30 characters a-z and A-Z)
-    </td>
-    </tr>
-<!----- Course ----->
-    <tr>
-        <td><h4>COURSES <br/>APPLIED FOR</h4></td>
-        <td><input type="text" name="Courses" maxlength="30" />
-        <td>
-          <ol>
-          <li>Hair Dressing</li>
-          <li>Computer Packages</li>
-          <li>Masonry</li>
-          <li>Capentry</li>
-          <li>Plumbing</li>
-      </ol>
+      <!----- Second Name ---->
+      <tr>
+        <td>SECOND NAME</td>
+        <td><input type="text" name="Second_Name" maxlength="30"/>
+        (max 30 characters a-z and A-Z)
+        </td>
+        </tr>
+       
+      <!----- Last Name ---->
+      <tr>
+      <td>LAST NAME</td>
+      <td><input type="text" name="Last_Name" maxlength="30"/>
+      (max 30 characters a-z and A-Z)
+      </td>
+      </tr>
+       
+      <!----- Date Of Birth ---->
+      <tr>
+      <td>DATE OF BIRTH</td>
+       
+      <td><input type="date" name="begin" 
+        placeholder="dd-mm-yyyy" value=""
+        min="1997-01-01" max="2030-12-31"/>
+      </td>
+      </tr>
+       
+      <!----- Email Id ---->
+      <tr>
+      <td>EMAIL ID</td>
+      <td><input type="text" name="Email_Id" maxlength="100" /></td>
+      </tr>
+       
+      <!----- Mobile Number ---->
+      <tr>
+      <td>MOBILE NUMBER</td>
+      <td>
+      <input type="text" name="Mobile_Num" maxlength="10" />
+      (10 digit number)
+      </td>
+      </tr>
+       
+      <!----- Gender ---->
+      <tr>
+      <td>GENDER</td>
+      <td>
+        Male <input type="radio" name="Gender" value="Male" />
+        Female <input type="radio" name="Gender" value="Female" />
         </td>
       </tr>
+       
+      <!----- Address----->
+      <tr>
+      <td>ADDRESS <br /><br /><br /></td>
+      <td><textarea name="Address" rows="4" cols="30"></textarea></td>
+      </tr>
 
-</body>
-</html>
+      <!----- City ---->
+      <tr>
+      <td>CITY</td>
+      <td><input type="text" name="City" maxlength="30" />
+      (max 30 characters a-z and A-Z)
+      </td>
+      </tr>
+       
+      <!----- Course ----->
+      <tr>
+      <td><h4>COURSES <br/>APPLIED FOR</h4></td>
+      <td>
+        A. Hair Dressing
+        <input type="radio" name="Course_hairdressing" value="Hair Dressing">
+        B. Computer Packages
+        <input type="radio" name="Course_Computer" value="Computer Packages">
+        C. Masonry
+        <input type="radio" name="Course_Masonry" value="Masonry">
+        D. Capentry
+        <input type="radio" name="Course_Capentry" value="Capentry">
+        E. Plumbing
+        <input type="radio" name="Course_Plumbing" value="Plumbing">
+    
+      </td>
+    </tr>
+       
+      <!----- Submit and Reset ----->
+      <tr>
+      <td colspan="3" align="center">
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+      </td>
+      </tr>
+      </table>
+       
+      </body>
+      </html>
